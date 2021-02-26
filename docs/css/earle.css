@@ -11,13 +11,13 @@
 }
 
 .earleAtLaw,
-.euiHeader {
+.earleAtLaw .euiHeader {
   font-family: 'Josefin Sans Std', 'Josefin Sans', josefin-sans, 'Inter',
     -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
-.earleAtLaw .euiBody--headerIsFixed {
+.earleAtLaw.euiBody--headerIsFixed {
   /**
    * euiSize = 16px;
    * euiSizeXXL = euiSize * 2.5;
@@ -27,13 +27,13 @@
   padding-top: 49px;
 }
 
-.euiBody--headerIsFixed > .euiFlyout,
-.euiCollapsibleNav {
+.earleAtLaw .euiBody--headerIsFixed > .euiFlyout,
+.earleAtLaw .euiCollapsibleNav {
   top: 49px;
   height: calc(100% - 49px);
 }
 
-.euiHeader {
+.earleAtLaw .euiHeader {
   text-transform: uppercase;
 }
 
