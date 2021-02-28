@@ -810,8 +810,8 @@
     "icon.vis_visual_builder-js.js.map": "/static/js/icon.vis_visual_builder-js.3b245ac1.chunk.js.map",
     "icon.wrench-js.js": "/static/js/icon.wrench-js.73db936b.chunk.js",
     "icon.wrench-js.js.map": "/static/js/icon.wrench-js.73db936b.chunk.js.map",
-    "main.js": "/static/js/main.5d95f74b.chunk.js",
-    "main.js.map": "/static/js/main.5d95f74b.chunk.js.map",
+    "main.js": "/static/js/main.cd699a56.chunk.js",
+    "main.js.map": "/static/js/main.cd699a56.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.86ce0dad.js",
     "runtime-main.js.map": "/static/js/runtime-main.86ce0dad.js.map",
     "static/css/407.446a964c.chunk.css": "/static/css/407.446a964c.chunk.css",
@@ -827,6 +827,6 @@
     "static/js/runtime-main.86ce0dad.js",
     "static/css/407.446a964c.chunk.css",
     "static/js/407.b449f90e.chunk.js",
-    "static/js/main.5d95f74b.chunk.js"
+    "static/js/main.cd699a56.chunk.js"
   ]
 }
