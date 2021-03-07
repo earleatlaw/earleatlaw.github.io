@@ -96,7 +96,11 @@
   max-width: 400px;
 }
 
-.home-background-3 .euiCard,
+.home-background-3 .euiCard {
+  background-color: rgba(0, 68, 93, 0.5);
+  color: #fff;
+}
+
 .home-background-3 .euiTitle--small {
   background-color: transparent;
   color: #fff;
@@ -111,7 +115,7 @@
 .home-background-3 .euiCard,
 .home-background-4 .euiCard {
   min-height: 200px;
-  max-height: 30vh;
+  /* max-height: 30vh; */
 }
 
 .home-background-3 .top {
@@ -168,10 +172,6 @@
 .home-background-3-color::before {
   background-color: rgba(0, 68, 93, 0.8); /* #00445d */
   z-index: -1;
-}
-
-.home-background-3-color .euiCard {
-  background-color: rgba(0, 68, 93, 0.5);
 }
 
 .home-background-4::before {
