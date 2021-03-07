@@ -98,6 +98,9 @@ html {
 .earleAtLaw .footer {
   background-color: #466b84;
   color: #fff;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 24px;
 }
 
 .home-background-1,
