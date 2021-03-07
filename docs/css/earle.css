@@ -44,6 +44,7 @@
   .euiButton--primary.euiButton--fill:not([class*='isDisabled']):focus {
   background-color: #466b84;
   border-radius: 0px;
+  color: #fff;
 }
 
 .earleAtLaw .euiButton--primary:not([class*='isDisabled']),
@@ -82,6 +83,10 @@
 
 .home-background-1 {
   min-height: calc(60vh - 98px);
+}
+
+.home-background-1 .euiButton {
+  min-width: 160px;
 }
 
 .home-background-2 .euiCard,
@@ -162,8 +167,11 @@
 
 .home-background-3-color::before {
   background-color: rgba(0, 68, 93, 0.8); /* #00445d */
-  /* opacity: 0.6; */
   z-index: -1;
+}
+
+.home-background-3-color .euiCard {
+  background-color: rgba(0, 68, 93, 0.5);
 }
 
 .home-background-4::before {
