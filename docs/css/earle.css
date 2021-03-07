@@ -6,7 +6,7 @@ html {
 }
 
 .fullScreen {
-  min-height: calc(100vh - 49px);
+  min-height: calc(100vh - 48px);
 }
 
 .verticalCenter {
