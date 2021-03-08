@@ -107,17 +107,13 @@ html {
   color: #fff;
 }
 
-.earleAtLaw
-  .serviceOffering:nth-of-type(even)
-  .euiButton--primary:not([class*='isDisabled']),
-.earleAtLaw
-  .serviceOffering:nth-of-type(even)
-  .euiButton--primary:not([class*='isDisabled']):hover,
-.earleAtLaw
-  .serviceOffering:nth-of-type(even)
-  .euiButton--primary:not([class*='isDisabled']):focus,
+.earleAtLaw .serviceOffering:nth-of-type(even) .euiButton.euiButton--primary,
 .earleAtLaw .serviceOffering:nth-of-type(even) .imageCard {
   border: 2px solid #fff;
+}
+
+.earleAtLaw .serviceOffering .euiButton.euiButton--primary {
+  min-width: 160px;
 }
 
 .earleAtLaw .serviceOffering .imageCard img {
