@@ -111,6 +111,10 @@ html {
   border: 2px solid #fff;
 }
 
+.earleAtLaw .serviceOffering:nth-of-type(even) .euiButton {
+  border: solid 2px #fff;
+}
+
 .earleAtLaw .serviceOffering .imageCard img {
   display: block;
   margin-left: auto;
@@ -172,7 +176,6 @@ html {
 .home-background-3 .euiCard,
 .home-background-4 .euiCard {
   min-height: 200px;
-  /* max-height: 30vh; */
 }
 
 .home-background-3 .top {
