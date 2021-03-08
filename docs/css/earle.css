@@ -112,10 +112,6 @@ html {
   border: 2px solid #fff;
 }
 
-.earleAtLaw .serviceOffering .euiButton.euiButton--primary {
-  min-width: 160px;
-}
-
 .earleAtLaw .serviceOffering .imageCard img {
   display: block;
   margin-left: auto;
@@ -147,7 +143,9 @@ html {
   min-height: calc(60vh - 98px);
 }
 
-.home-background-1 .euiButton {
+.home-background-1 .euiButton,
+.earleAtLaw .serviceOffering .euiButton.euiButton--primary,
+.earleAtLaw .euiButton.euiButton--primary.contact {
   min-width: 160px;
 }
 
