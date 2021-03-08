@@ -76,6 +76,10 @@ html {
   border-radius: 0px;
 }
 
+.earleAtLaw .imageCard {
+  border-radius: 0px;
+}
+
 .earleAtLaw .serviceDescription,
 .earleAtLaw .serviceOffering {
   padding: 24px;
@@ -89,10 +93,33 @@ html {
   min-height: 40vh;
 }
 
+.earleAtLaw .serviceOffering .imageCard {
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
 .earleAtLaw .serviceOffering:nth-of-type(even),
-.earleAtLaw .serviceOffering:nth-of-type(even) .euiTitle {
+.earleAtLaw .serviceOffering:nth-of-type(even) .euiTitle,
+.earleAtLaw .serviceOffering:nth-of-type(even) .imageCard {
   background-color: #466b84;
   color: #fff;
+}
+
+.earleAtLaw .serviceOffering:nth-of-type(even) .imageCard {
+  border: 2px solid #fff;
+}
+
+.earleAtLaw .serviceOffering .imageCard img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+}
+
+.earleAtLaw .serviceOffering:nth-of-type(odd) .imageCard {
+  border: 2px solid #466b84;
 }
 
 .earleAtLaw .footer {
