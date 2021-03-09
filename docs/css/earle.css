@@ -45,13 +45,16 @@ html {
   text-transform: uppercase;
 }
 
+.earleAtLaw .euiButton {
+  border-radius: 0px;
+}
+
 .earleAtLaw .euiButton--primary.euiButton--fill:not([class*='isDisabled']),
 .earleAtLaw
   .euiButton--primary.euiButton--fill:not([class*='isDisabled']):hover,
 .earleAtLaw
   .euiButton--primary.euiButton--fill:not([class*='isDisabled']):focus {
   background-color: #466b84;
-  border-radius: 0px;
   color: #fff;
 }
 
@@ -59,7 +62,6 @@ html {
 .earleAtLaw .euiButton--primary:not([class*='isDisabled']):hover,
 .earleAtLaw .euiButton--primary:not([class*='isDisabled']):focus {
   background-color: #466b84;
-  border-radius: 0px;
   color: #fff;
 }
 
