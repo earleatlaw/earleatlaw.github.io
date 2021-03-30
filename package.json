@@ -1,0 +1,52 @@
+{
+  "name": "earleatlaw",
+  "version": "0.1.0",
+  "homepage": "https://earleatlaw.github.io/",
+  "devDependencies": {
+    "@types/http-errors": "^1.6.1",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/react-router": "^5.1.12",
+    "@types/react-router-dom": "^5.1.7",
+    "prettier": "^2.2.1",
+    "react-scripts": "4.0.2",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@elastic/datemath": "^5.0.3",
+    "@elastic/eui": "^31.9.1",
+    "http-errors": "^1.8.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "scripts": {
+    "clean": "rm -rf docs",
+    "start": "react-scripts start",
+    "build": "yarn clean && react-scripts build && mv build docs && cp CNAME docs/",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
