@@ -82,6 +82,10 @@ html {
   border-radius: 0px;
 }
 
+.earleAtLaw .pageBody {
+  min-height: 80vh;
+}
+
 .earleAtLaw .serviceDescription,
 .earleAtLaw .serviceOffering {
   padding: 24px;
