@@ -80,7 +80,7 @@ export const localeMappings: { [language: string]: LocaleMapping } = {
     'page.business.service.landlord_tenant.list.1':
       'Custom leases are available starting for $500',
     'page.business.service.landlord_tenant.list.2':
-      'Tenancy consultation is available for $250 an hour',
+      'Tenancy consultation is available for $300 an hour',
     'page.business.service.landlord_tenant.title': 'Landlords and Tenants',
     'page.business.service.other.desc':
       "Have a business matter that you do not see listed? That's fine. We just listed our most used services.",
@@ -134,16 +134,16 @@ export const localeMappings: { [language: string]: LocaleMapping } = {
     'page.individual.service.estate.desc':
       'Everyone should have at least a basic plan for their estate. This includes, but means more than having a Will. Estate planning also includes having a Powers of Attorney so that your personal matters can be handled when you are unable to. Life happens and things can turn for the worst when we least expect it. Planning for this helps prevent a bad situation from becoming worse.',
     'page.individual.service.estate.list.1':
-      'Basic estate plans are available for $250 for an individual',
+      'Basic estate plans are available for $350 for an individual',
     'page.individual.service.estate.list.2':
-      'Basic estate plans for $400 for a couple',
+      'Basic estate plans for $600 for a couple',
     'page.individual.service.estate.list.3':
       'Assistance is also available for more complex estate planning',
     'page.individual.service.estate.title': 'Estate Planning',
     'page.individual.service.nuptials.desc':
-      'It is not a secret that over half of marriages end in divorce, so it is reasonable for you and your spouse to want to protect your interest if it happens. We offer standard prenuptial agreements at $250. More complex agreements are available at an hourly rate.  Already married and wish you had done one? Postnuptial agreements are available at the same rate. If you are divorcing and need help with a Property Settlement Agreement, we can help you with that as well. Standard Property Settlement Agreements are available for $400 for no minor children and $600 for custody arraignments included. More complex agreements can be done on an hourly basis.',
+      'It is not a secret that over half of marriages end in divorce, so it is reasonable for you and your spouse to want to protect your interest if it happens. We offer standard prenuptial agreements at $350. More complex agreements are available at an hourly rate.  Already married and wish you had done one? Postnuptial agreements are available at the same rate. If you are divorcing and need help with a Property Settlement Agreement, we can help you with that as well. Standard Property Settlement Agreements are available for $400 for no minor children and $600 for custody arraignments included. More complex agreements can be done on an hourly basis.',
     'page.individual.service.nuptials.list.1':
-      'Standard Prenuptial or Postnuptial agreements for $250',
+      'Standard Prenuptial or Postnuptial agreements for $350',
     'page.individual.service.nuptials.list.2':
       'Standard Property Settlement Agreements for $400',
     'page.individual.service.nuptials.list.3':
@@ -152,7 +152,7 @@ export const localeMappings: { [language: string]: LocaleMapping } = {
       'Assistance is also available for more complex agreements',
     'page.individual.service.nuptials.title': 'Prenuptial or Postnuptial',
     'page.individual.service.landlord_tenant.desc':
-      'Have an extra space or property that you want to look into renting out? Virginia compliant residential lease agreements are available for $500. Are you a tenant with a lease agreement that you just do not understand? Meet with an experienced attorney to help you make sense of your lease agreement and your situation with a $250 consultation.',
+      'Have an extra space or property that you want to look into renting out? Virginia compliant residential lease agreements are available for $500. Are you a tenant with a lease agreement that you just do not understand? Meet with an experienced attorney to help you make sense of your lease agreement and your situation with a $300 consultation.',
     'page.individual.service.landlord_tenant.title': 'Landlord or Tenant',
     'page.individual.service.other.desc':
       "Have a matter that you do not see listed? That's ok! One-hour consultations are available for $300. For something other than a consultation, contact us for a quote.",
