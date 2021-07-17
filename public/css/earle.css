@@ -74,7 +74,7 @@ html {
   border: solid 2px #466b84;
 }
 
-.earleAtLaw .euiCard.euiCard--borderRadiusMedium {
+.earleAtLaw .euiPanel.euiPanel--borderRadiusMedium {
   border-radius: 0px;
 }
 
@@ -162,7 +162,7 @@ html {
   max-width: 400px;
 }
 
-.home-background-3 .euiCard {
+.home-background-3 .euiPanel.euiCard {
   background-color: rgba(0, 68, 93, 0.5);
   color: #fff;
 }
