@@ -37,13 +37,13 @@ export const HomePartOne: React.VFC = () => (
         <EuiFlexItem grow={false}>
           <EuiFlexGroup alignItems="center" gutterSize="l">
             <EuiFlexItem grow={false}>
-              <Button href={Routes.individual}>
-                <Locale token="route.individual" />
+              <Button href={Routes.business}>
+                <Locale token="route.business" />
               </Button>
             </EuiFlexItem>
             <EuiFlexItem grow={false}>
-              <Button href={Routes.business}>
-                <Locale token="route.business" />
+              <Button href={Routes.individual}>
+                <Locale token="route.individual" />
               </Button>
             </EuiFlexItem>
           </EuiFlexGroup>

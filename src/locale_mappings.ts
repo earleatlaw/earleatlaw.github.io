@@ -13,7 +13,8 @@ export const localeMappings: { [language: string]: LocaleMapping } = {
     'error.404.line2':
       'Please try using the menu at the top to find the desired page or use the button below to go to the homepage.',
     'footer.copyright': '© Copyright 2021 Earle at Law PLLC',
-    'header.services': 'Virginia Law Firm',
+    'header.services': 'Colorado and Virginia Law Firm',
+    'header.services.mobile': 'CO & VA Law Firm',
     'home.1.line1': 'You have legal questions.',
     'home.1.line2': 'We can help.',
     'home.2.values.title': 'Our Values',
@@ -41,9 +42,9 @@ export const localeMappings: { [language: string]: LocaleMapping } = {
     'home.4.people.desc':
       'Thinking about starting a business? Want to finally have your Will done? Need an attorney’s advice about a situation but don’t want to use up your savings doing so? Look no further.',
     'page.about.body.1':
-      'Earle at Law, PLLC is a law firm that offers services for Virginia legal needs.',
+      'Earle at Law, PLLC is a law firm that offers services for Colorado and Virginia legal needs.',
     'page.about.body.2':
-      "Sabrina Earle is the Founding Attorney of Earle at Law, PLLC. She is a Virginia Attorney whose practice focuses on helping individuals and small businesses with their legal needs. Sabrina received her law degree from the University of Richmond's School of Law and has practiced law mainly in Northern Virginia.",
+      "Sabrina Earle is the Founding Attorney of Earle at Law, PLLC. She is a Colorado and Virginia Attorney whose practice focuses on helping individuals and small businesses with their legal needs. Sabrina received her law degree from the University of Richmond's School of Law and has practiced law in Colorado and Virginia.",
     'page.about.body.3':
       'During her time as an attorney, she has assisted individuals with everything from their estate planning needs to understanding home purchasing contracts and resolving Landlord/Tenant problems. Sabrina has also helped small businesses strengthen their contracts and resolve disputes in a variety of business situations. She is dedicated to offering quality legal services at an affordable price. Getting help from an attorney should not break the bank!',
     'page.about.title': 'About Earle at Law',
@@ -152,7 +153,7 @@ export const localeMappings: { [language: string]: LocaleMapping } = {
       'Assistance is also available for more complex agreements',
     'page.individual.service.nuptials.title': 'Prenuptial or Postnuptial',
     'page.individual.service.landlord_tenant.desc':
-      'Have an extra space or property that you want to look into renting out? Virginia compliant residential lease agreements are available for $500. Are you a tenant with a lease agreement that you just do not understand? Meet with an experienced attorney to help you make sense of your lease agreement and your situation with a $300 consultation.',
+      'Have an extra space or property that you want to look into renting out? Colorado or Virginia compliant residential lease agreements are available for $500. Are you a tenant with a lease agreement that you just do not understand? Meet with an experienced attorney to help you make sense of your lease agreement and your situation with a $300 consultation.',
     'page.individual.service.landlord_tenant.title': 'Landlord or Tenant',
     'page.individual.service.other.desc':
       "Have a matter that you do not see listed? That's ok! One-hour consultations are available for $300. For something other than a consultation, contact us for a quote.",

@@ -50,16 +50,16 @@ export const NamedRoutes = [
     token: 'route.about',
   },
   {
-    component: IndividualPage,
-    href: Routes.individual,
-    iconType: 'user',
-    token: 'route.individual',
-  },
-  {
     component: BusinessPage,
     href: Routes.business,
     iconType: 'users',
     token: 'route.business',
+  },
+  {
+    component: IndividualPage,
+    href: Routes.individual,
+    iconType: 'user',
+    token: 'route.individual',
   },
   {
     component: ContactPage,

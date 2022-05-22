@@ -37,7 +37,7 @@ interface Props {
   reason?: string;
 }
 
-const types = ['individual', 'business'];
+const types = ['business', 'individual'];
 const typeTokens = types.map((type) => `page.contact.form.type.${type}`);
 
 /**
