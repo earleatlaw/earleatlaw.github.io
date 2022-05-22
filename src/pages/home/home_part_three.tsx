@@ -20,27 +20,6 @@ export const HomePartThree: React.VFC = () => (
       >
         <EuiPageContentBody>
           <EuiFlexGroup className="top" gutterSize="xl">
-            {IndividualServices.filter((service) => service.home).map(
-              (service) => (
-                <EuiFlexItem key={`individual-${service.id}`}>
-                  <TokenizedCard
-                    button={
-                      <Button
-                        href={
-                          service.link_anchor !== false
-                            ? `${Routes.individual}#${service.id}`
-                            : Routes.individual
-                        }
-                        token="route.learn_more"
-                      />
-                    }
-                    token={`home.3.individual.${service.id}`}
-                  />
-                </EuiFlexItem>
-              )
-            )}
-          </EuiFlexGroup>
-          <EuiFlexGroup className="bottom" gutterSize="xl">
             {BusinessServices.filter((service) => service.home).map(
               (service) => (
                 <EuiFlexItem key={`business-${service.id}`}>
@@ -56,6 +35,27 @@ export const HomePartThree: React.VFC = () => (
                       />
                     }
                     token={`home.3.business.${service.id}`}
+                  />
+                </EuiFlexItem>
+              )
+            )}
+          </EuiFlexGroup>
+          <EuiFlexGroup className="bottom" gutterSize="xl">
+            {IndividualServices.filter((service) => service.home).map(
+              (service) => (
+                <EuiFlexItem key={`individual-${service.id}`}>
+                  <TokenizedCard
+                    button={
+                      <Button
+                        href={
+                          service.link_anchor !== false
+                            ? `${Routes.individual}#${service.id}`
+                            : Routes.individual
+                        }
+                        token="route.learn_more"
+                      />
+                    }
+                    token={`home.3.individual.${service.id}`}
                   />
                 </EuiFlexItem>
               )

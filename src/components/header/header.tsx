@@ -1,4 +1,4 @@
-import { EuiHeader } from '@elastic/eui';
+import { EuiHeader, EuiHideFor, EuiShowFor } from '@elastic/eui';
 import React from 'react';
 import { Locale } from '../locale';
 import { HeaderIcon } from './header_icon';
@@ -13,7 +13,16 @@ export const Header: React.VFC = () => (
         borders: 'right',
       },
       {
-        items: [<Locale token="header.services" />],
+        items: [
+          <>
+            <EuiShowFor sizes={['xs', 's']}>
+              <Locale token="header.services.mobile" />
+            </EuiShowFor>
+            <EuiHideFor sizes={['xs', 's']}>
+              <Locale token="header.services" />
+            </EuiHideFor>
+          </>,
+        ],
       },
     ]}
   />
